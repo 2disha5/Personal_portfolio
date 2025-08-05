@@ -66,7 +66,7 @@ const projects = [
       { name: "JavaScript" },
     ],
     image: "/assets/work/thumb4.png",
-    github: "-",
+    github: "https://github.com/2disha5/Personal_portfolio",
   },
 ];
 

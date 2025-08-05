@@ -49,6 +49,7 @@
   --color-accent: #00ff99;
   --color-accent-hover: #00e187;
   --color-accent-border: #00e187;
+  --color-accent-ring: #00ff99;
 
   --radius: 0.625rem;
   --background: oklch(1 0 0);
@@ -181,6 +182,19 @@
   .border-accent {
     color: var(--color-accent-border);
   }
+  .focus\:border-accent:focus {
+    border-color: var(--color-accent-border);
+  }
+  .focus\:bg-accent:focus {
+    background-color: var(--color-accent);
+  }
+  .focus-visible\:ring-accent:focus-visible {
+    --tw-ring-color: var(--color-accent-ring);
+  }
+  .focus\:ring-accent:focus {
+    --tw-ring-color: var(--color-accent-ring);
+  }
+
   .hover\:bg-accent-hover:hover {
     background-color: var(--color-accent-hover);
   }
