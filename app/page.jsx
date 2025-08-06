@@ -22,14 +22,22 @@ const Home = () => {
               and technologies
             </p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
-              <Button
+              <a
+                href="/DishaChaudhari_CV.pdf"
+                download
+                className="uppercase flex items-center gap-2 cursor-pointer px-6 py-3 rounded-sm bg-accent text-primary hover:text-accent transition"
+              >
+                <span>Download CV</span>
+                <FiDownload className="text-xl" />
+              </a>
+              {/* <Button
                 variant="outline"
                 size="lg"
                 className="uppercase flex items-center gap-2 cursor-pointer"
               >
                 <span>Download CV</span>
                 <FiDownload className="text-xl" />
-              </Button>
+              </Button> */}
               <div className="mb-8 xl:mb-0">
                 <Social
                   containerStyles="flex gap-6"
