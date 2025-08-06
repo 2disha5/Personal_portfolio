@@ -53,14 +53,11 @@ const Contact = () => {
               method="POST"
               className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl"
             >
-              {/* ✅ Add this hidden input */}
               <input
                 type="hidden"
                 name="_next"
                 value="https://personal-portfolio-mu-eight-27.vercel.app/thankyou"
               />
-
-              {/* You can also add this to avoid bot submissions */}
               <input type="hidden" name="_captcha" value="false" />
 
               <h3 className="text-4xl text-accent">Let's work together</h3>
@@ -107,54 +104,6 @@ const Contact = () => {
                 Send Message
               </Button>
             </form>
-
-            {/* <form
-              action="https://formsubmit.co/dishachaudhari801@gmail.com"
-              method="POST"
-              className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl"
-            >
-              <h3 className="text-4xl text-accent">Let's work together</h3>
-              <p className="text-white/60">
-                I'm always eager to take on new challenges and contribute to
-                meaningful projects. Reach out and let’s build something
-                impactful together.
-              </p>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <Input type="firstname" name="name" placeholder="First Name" />
-                <Input
-                  type="lastname"
-                  name="lastname"
-                  placeholder="Last Name"
-                />
-                <Input type="email" name="email" placeholder="Email Address" />
-                <Input type="phone" name="phone" placeholder="Phone Number" />
-              </div>
-              <Select>
-                <SelectTrigger className="w-full cursor-pointer">
-                  <SelectValue placeholder="Select a service" />
-                </SelectTrigger>
-                <SelectContent>
-                  <SelectGroup>
-                    <SelectLabel>Select a service</SelectLabel>
-                    <SelectItem value="est" className="cursor-pointer">
-                      Web development
-                    </SelectItem>
-                    <SelectItem value="cst" className="cursor-pointer">
-                      UI/UX Design
-                    </SelectItem>
-                  </SelectGroup>
-                </SelectContent>
-              </Select>
-              <Textarea
-                name="message"
-                className="h-[200px]"
-                placeholder="Type your message here."
-              />
-
-              <Button size="md" className="max-w-40 min-h-12">
-                Send Message
-              </Button>
-            </form> */}
           </div>
           <div className="flex-1 flex items-center xl:justify-end order-1 xl:order-none mb-8 xl:mb-0">
             <ul className="flex flex-col gap-10">
