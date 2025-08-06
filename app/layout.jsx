@@ -11,8 +11,8 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata = {
-  title: "JetBrains Mono Font Setup",
-  description: "Font applied globally via className",
+  title: "Disha Chaudhari | Portfolio",
+  description: "Full Stack Developer Portfolio showcasing projects and skills.",
 };
 
 export default function RootLayout({ children }) {
