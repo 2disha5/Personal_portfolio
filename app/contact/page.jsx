@@ -57,7 +57,7 @@ const Contact = () => {
               <input
                 type="hidden"
                 name="_next"
-                value="http://localhost:3000/thankyou"
+                value="https://personal-portfolio-mu-eight-27.vercel.app/thankyou"
               />
 
               {/* You can also add this to avoid bot submissions */}
